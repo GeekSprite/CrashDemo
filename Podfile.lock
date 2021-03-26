@@ -1,0 +1,20 @@
+PODS:
+  - JSONModel (1.8.0)
+  - Toast (4.0.0)
+
+DEPENDENCIES:
+  - JSONModel
+  - Toast (~> 4.0.0)
+
+SPEC REPOS:
+  trunk:
+    - JSONModel
+    - Toast
+
+SPEC CHECKSUMS:
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+
+PODFILE CHECKSUM: 1ee8384c220ee3f8747b01662590459048a14c9d
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,9 @@
+[submodule "Submodules/SDWebImage"]
+	path = Submodules/SDWebImage
+	url = git@github.com:SDWebImage/SDWebImage.git
+[submodule "Submodules/AFNetworking"]
+	path = Submodules/AFNetworking
+	url = https://github.com/AFNetworking/AFNetworking.git
+[submodule "Submodules/GPLoadingMore"]
+	path = Submodules/GPLoadingMore
+	url = https://github.com/GeekSprite/GPLoadingMore.git

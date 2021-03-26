@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D083582260DB11A00BBF483 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D08357E260DB10C00BBF483 /* SDWebImage.framework */; };
+		0D083583260DB11A00BBF483 /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0D08357E260DB10C00BBF483 /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0D0835A4260DB24F00BBF483 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D083590260DB24600BBF483 /* AFNetworking.framework */; };
+		0D0835A5260DB24F00BBF483 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0D083590260DB24600BBF483 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0D0837EA260DC24E00BBF483 /* GPLoadingMore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0837E8260DC24900BBF483 /* GPLoadingMore.framework */; };
 		0DD958F8254B9BF300AB1163 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD958F7254B9BF300AB1163 /* AppDelegate.m */; };
 		0DD95903254B9BF400AB1163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DD95902254B9BF400AB1163 /* Assets.xcassets */; };
 		0DD95906254B9BF400AB1163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD95904254B9BF400AB1163 /* LaunchScreen.storyboard */; };
@@ -14,9 +19,116 @@
 		0DD95916254B9C4F00AB1163 /* OTIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD95914254B9C4F00AB1163 /* OTIndexViewController.m */; };
 		0DD95917254B9C4F00AB1163 /* OTIndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DD95915254B9C4F00AB1163 /* OTIndexViewController.xib */; };
 		0DD95921254B9ED900AB1163 /* CountlyCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD9591F254B9ED900AB1163 /* CountlyCrashReporter.m */; };
+		385960E8366A0A23C318005C /* Pods_CrashDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88B8C030731EE6856A2728C /* Pods_CrashDemo.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0D08357B260DB10C00BBF483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D083574260DB10C00BBF483 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53761325155AD0D5005750A4;
+			remoteInfo = "SDWebImage static";
+		};
+		0D08357D260DB10C00BBF483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D083574260DB10C00BBF483 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4A2CADFF1AB4BB5300B6BC39;
+			remoteInfo = SDWebImage;
+		};
+		0D08357F260DB10C00BBF483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D083574260DB10C00BBF483 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 80B6DFEE2142B71600BCB334;
+			remoteInfo = SDWebImageMapKit;
+		};
+		0D08358F260DB24600BBF483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D083585260DB24500BBF483 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 299522391BBF104D00859F49;
+			remoteInfo = "AFNetworking iOS";
+		};
+		0D083591260DB24600BBF483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D083585260DB24500BBF483 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 299522651BBF129200859F49;
+			remoteInfo = "AFNetworking watchOS";
+		};
+		0D083593260DB24600BBF483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D083585260DB24500BBF483 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 299522771BBF136400859F49;
+			remoteInfo = "AFNetworking macOS";
+		};
+		0D083595260DB24600BBF483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D083585260DB24500BBF483 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2987B0A51BC408A200179A4C;
+			remoteInfo = "AFNetworking tvOS";
+		};
+		0D083597260DB24600BBF483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D083585260DB24500BBF483 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 298D7C3B1BC2C79500FD3B3E;
+			remoteInfo = "AFNetworking iOS Tests";
+		};
+		0D083599260DB24600BBF483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D083585260DB24500BBF483 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 298D7C4A1BC2C7B200FD3B3E;
+			remoteInfo = "AFNetworking macOS Tests";
+		};
+		0D08359B260DB24600BBF483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D083585260DB24500BBF483 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2987B0AE1BC408A200179A4C;
+			remoteInfo = "AFNetworking tvOS Tests";
+		};
+		0D0837E5260DC24900BBF483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0837E0260DC24900BBF483 /* GPLoadingMoreViewDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B9B18F31FB94C4C00CEAADD;
+			remoteInfo = GPLoadingMoreViewDemo;
+		};
+		0D0837E7260DC24900BBF483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0837E0260DC24900BBF483 /* GPLoadingMoreViewDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0D0837CB260DBF1300BBF483;
+			remoteInfo = GPLoadingMore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0D083584260DB11A00BBF483 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0D083583260DB11A00BBF483 /* SDWebImage.framework in Embed Frameworks */,
+				0D0835A5260DB24F00BBF483 /* AFNetworking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0A10AED089F3D1A023480BC7 /* Pods-CrashDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashDemo.release.xcconfig"; path = "Target Support Files/Pods-CrashDemo/Pods-CrashDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0D083574260DB10C00BBF483 /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = Submodules/SDWebImage/SDWebImage.xcodeproj; sourceTree = "<group>"; };
+		0D083585260DB24500BBF483 /* AFNetworking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AFNetworking.xcodeproj; path = Submodules/AFNetworking/AFNetworking.xcodeproj; sourceTree = "<group>"; };
+		0D0837E0260DC24900BBF483 /* GPLoadingMoreViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPLoadingMoreViewDemo.xcodeproj; path = Submodules/GPLoadingMore/GPLoadingMoreViewDemo.xcodeproj; sourceTree = "<group>"; };
 		0DD958F3254B9BF300AB1163 /* CrashDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD958F6254B9BF300AB1163 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0DD958F7254B9BF300AB1163 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +141,8 @@
 		0DD95915254B9C4F00AB1163 /* OTIndexViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OTIndexViewController.xib; sourceTree = "<group>"; };
 		0DD9591F254B9ED900AB1163 /* CountlyCrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountlyCrashReporter.m; sourceTree = "<group>"; };
 		0DD95920254B9ED900AB1163 /* CountlyCrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountlyCrashReporter.h; sourceTree = "<group>"; };
+		A88B8C030731EE6856A2728C /* Pods_CrashDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA5E8DCD9C907B6C98AA995 /* Pods-CrashDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashDemo.debug.xcconfig"; path = "Target Support Files/Pods-CrashDemo/Pods-CrashDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +150,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0837EA260DC24E00BBF483 /* GPLoadingMore.framework in Frameworks */,
+				0D083582260DB11A00BBF483 /* SDWebImage.framework in Frameworks */,
+				0D0835A4260DB24F00BBF483 /* AFNetworking.framework in Frameworks */,
+				385960E8366A0A23C318005C /* Pods_CrashDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D083575260DB10C00BBF483 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D08357C260DB10C00BBF483 /* libSDWebImage.a */,
+				0D08357E260DB10C00BBF483 /* SDWebImage.framework */,
+				0D083580260DB10C00BBF483 /* SDWebImageMapKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D083586260DB24500BBF483 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D083590260DB24600BBF483 /* AFNetworking.framework */,
+				0D083592260DB24600BBF483 /* AFNetworking.framework */,
+				0D083594260DB24600BBF483 /* AFNetworking.framework */,
+				0D083596260DB24600BBF483 /* AFNetworking.framework */,
+				0D083598260DB24600BBF483 /* AFNetworking iOS Tests.xctest */,
+				0D08359A260DB24600BBF483 /* AFNetworking macOS Tests.xctest */,
+				0D08359C260DB24600BBF483 /* AFNetworking tvOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D0837E1260DC24900BBF483 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D0837E6260DC24900BBF483 /* GPLoadingMoreViewDemo.app */,
+				0D0837E8260DC24900BBF483 /* GPLoadingMore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		0DD958EA254B9BF300AB1163 = {
 			isa = PBXGroup;
 			children = (
+				0D0837E0260DC24900BBF483 /* GPLoadingMoreViewDemo.xcodeproj */,
+				0D083585260DB24500BBF483 /* AFNetworking.xcodeproj */,
+				0D083574260DB10C00BBF483 /* SDWebImage.xcodeproj */,
 				0DD958F5254B9BF300AB1163 /* CrashDemo */,
 				0DD958F4254B9BF300AB1163 /* Products */,
+				A5A627626AC8DD6427315004 /* Pods */,
+				9D394C2D2F6B1B5A590EA259 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +232,23 @@
 			path = CrashDemo;
 			sourceTree = "<group>";
 		};
+		9D394C2D2F6B1B5A590EA259 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A88B8C030731EE6856A2728C /* Pods_CrashDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5A627626AC8DD6427315004 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFA5E8DCD9C907B6C98AA995 /* Pods-CrashDemo.debug.xcconfig */,
+				0A10AED089F3D1A023480BC7 /* Pods-CrashDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DD9590C254B9BF400AB1163 /* Build configuration list for PBXNativeTarget "CrashDemo" */;
 			buildPhases = (
+				7860517A71FA75A4BBC03E69 /* [CP] Check Pods Manifest.lock */,
 				0DD958EF254B9BF300AB1163 /* Sources */,
 				0DD958F0254B9BF300AB1163 /* Frameworks */,
 				0DD958F1254B9BF300AB1163 /* Resources */,
+				5902E3B63710F3E9F47E9C69 /* [CP] Embed Pods Frameworks */,
+				0D083584260DB11A00BBF483 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,12 +296,113 @@
 			mainGroup = 0DD958EA254B9BF300AB1163;
 			productRefGroup = 0DD958F4254B9BF300AB1163 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0D083586260DB24500BBF483 /* Products */;
+					ProjectRef = 0D083585260DB24500BBF483 /* AFNetworking.xcodeproj */;
+				},
+				{
+					ProductGroup = 0D0837E1260DC24900BBF483 /* Products */;
+					ProjectRef = 0D0837E0260DC24900BBF483 /* GPLoadingMoreViewDemo.xcodeproj */;
+				},
+				{
+					ProductGroup = 0D083575260DB10C00BBF483 /* Products */;
+					ProjectRef = 0D083574260DB10C00BBF483 /* SDWebImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0DD958F2254B9BF300AB1163 /* CrashDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0D08357C260DB10C00BBF483 /* libSDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImage.a;
+			remoteRef = 0D08357B260DB10C00BBF483 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D08357E260DB10C00BBF483 /* SDWebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDWebImage.framework;
+			remoteRef = 0D08357D260DB10C00BBF483 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D083580260DB10C00BBF483 /* SDWebImageMapKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDWebImageMapKit.framework;
+			remoteRef = 0D08357F260DB10C00BBF483 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D083590260DB24600BBF483 /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = 0D08358F260DB24600BBF483 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D083592260DB24600BBF483 /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = 0D083591260DB24600BBF483 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D083594260DB24600BBF483 /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = 0D083593260DB24600BBF483 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D083596260DB24600BBF483 /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = 0D083595260DB24600BBF483 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D083598260DB24600BBF483 /* AFNetworking iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AFNetworking iOS Tests.xctest";
+			remoteRef = 0D083597260DB24600BBF483 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D08359A260DB24600BBF483 /* AFNetworking macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AFNetworking macOS Tests.xctest";
+			remoteRef = 0D083599260DB24600BBF483 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D08359C260DB24600BBF483 /* AFNetworking tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AFNetworking tvOS Tests.xctest";
+			remoteRef = 0D08359B260DB24600BBF483 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0837E6260DC24900BBF483 /* GPLoadingMoreViewDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GPLoadingMoreViewDemo.app;
+			remoteRef = 0D0837E5260DC24900BBF483 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0837E8260DC24900BBF483 /* GPLoadingMore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPLoadingMore.framework;
+			remoteRef = 0D0837E7260DC24900BBF483 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0DD958F1254B9BF300AB1163 /* Resources */ = {
@@ -139,6 +416,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5902E3B63710F3E9F47E9C69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrashDemo/Pods-CrashDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrashDemo/Pods-CrashDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrashDemo/Pods-CrashDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7860517A71FA75A4BBC03E69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrashDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0DD958EF254B9BF300AB1163 /* Sources */ = {
@@ -280,6 +599,7 @@
 		};
 		0DD9590D254B9BF400AB1163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA5E8DCD9C907B6C98AA995 /* Pods-CrashDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +619,7 @@
 		};
 		0DD9590E254B9BF400AB1163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A10AED089F3D1A023480BC7 /* Pods-CrashDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
